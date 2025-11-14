@@ -1,6 +1,6 @@
 ## Basic Configuration
 
-baseurl = "https://iamthefrogy.github.io/"
+baseurl = "https://thezerotrustguy.github.io/"
 builddrafts = false
 canonifyurls = false
 languageCode = "en-US"
@@ -10,8 +10,8 @@ contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
 
-author = "Chintan Gurjar"
-title = "Cyber Frogy"
+author = "Mohammad Asif"
+title = "Mohammad Asif"
 
 theme = "hugo-goa"
 
