@@ -1,0 +1,157 @@
+## Basic Configuration
+
+baseurl = "https://iamthefrogy.github.io/"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+preserveCNAME = true
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Chintan Gurjar"
+title = "Cyber Frogy"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+# disqusShortname = "discusShortname" # Enable if you want to use Disqus
+# googleAnalytics = "UA-XXXXXXXX-X" # Enable if you want to use Google Analytics
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Chintan Gurjar"
+intro = " 13 Years of Exp. | VM | CTI | Detection Engineering | Pentest "
+description = """
+<center><img src="/images/career_summary.png" width="1050"/></center></br>
+"""
+authorimage = "headshot.png"
+dateformat = "Jan 2, 2006"
+
+[params.hero]
+greeting = "Hi, I am Chintan"
+title = "Building resilient cyber defense programs that scale."
+subtitle = "Hands-on security leader with 13+ years orchestrating threat intelligence, vulnerability management, and application security across global teams."
+primary_cta_label = "Download Resume"
+primary_cta_link = "/files/resume-sample.pdf"
+secondary_cta_label = "Explore recent work"
+secondary_cta_link = "/posts/"
+
+[[params.hero.stats]]
+label = "experience leading security programs."
+value = "13+ years"
+
+[[params.hero.stats]]
+label = "Pentests & Red-team projects delivered"
+value = "150+"
+
+[[params.hero.stats]]
+label = "8 years offensive, 5 years Defensive"
+value = "Offensive & Defensive"
+
+[[params.hero.stats]]
+label = "VM, CTI, Detection Engineering divisions for product-based firms"
+value = "Built & Managed Programs"
+
+[params.home]
+latest_posts_heading = "Latest writing"
+highlights_heading = "What makes me different"
+highlights_subheading = "I apply pragmatic approach that blends advisory to operational and tech audience."
+resources_heading = "Starter resources"
+
+[[params.home.highlights]]
+title = "Builder of Security Programs"
+description = "I have built and run security programs end-to-end—standing up VM, CTI, ASM, and VAPT divisions, managing MSSPs/vendors, and delivering outcomes at global brands."
+tags = ["Program Design", "MSSP/vendor mgmt", "VM/CTI/ASM/VAPT/TH", "Roadmaps & KPIs", "Playbooks & SOPs", "Matrics & Dashboards"]
+
+[[params.home.highlights]]
+title = "Strategic Security Leader"
+description = "I align security with business goals crafting 3–5 year roadmaps, reporting to execs/boards, and translating CISO pain points into measurable initiatives."
+tags = ["3–5 yr strategy", "Exec/Board reporting", "CISO Priorities", "Risk → Business", "Maturity Model", "Governance"]
+
+[[params.home.highlights]]
+title = "Offensive + Defensive Depth"
+description = "200+ pentests & 10 red-team projects delivered, founder of two CVE discoveries, hands-on technical depth from assessment to integration and also designing strategy from scratch."
+tags = ["Pentest & Red-team", "Adversary Emulation & Purple Teaming", "Detection Engineering", "Threat Intelligence & Hunting"]
+
+[[params.home.highlights]]
+title = "Tech & Tools Matrix"
+description = "Hands-on across pentest/red team, VM, detection engineering, threat hunting, and CTI toolings and solutions from assessment, implementation, integration and usage point of view."
+tags = ["BurpSuite", "Bloodhound", "Nmap", "Nessus/Qualys", "CTI Solutions", "MITRE ATT&CK", "Wiz", "MS Sentinel/Defender", "CrowdStrike", "Docker", "Kenna Security", "GitHub"]
+
+
+## Site Meta Settings
+[params.meta]
+description = "Practical Cybersecurity Blog"
+keywords = "cybersecurity, infosec, bug-bounty, bugbounty, SOC, CTI, VM, Pentest, Cyber Defense"
+
+## Social Accounts
+[params.social]
+github = "iamthefrogy"
+linkedin = "chintangurjar"
+twitter = "iamthefrogy"
+youtube = "@Cyberevolution/videos"
+email = "chintangurjar@outlook.com"
+
+## Extras
+[params.extra]
+copyright = "© Chintan Gurjar - chintangurjar@outlook.com"
+poweredby = true
+highlightjs = true
+socialmarkup = true
+toc = true
+displayrssicon = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+## Main Menu
+[[menu.main]]
+name = "Home"
+weight = 100
+identifier = "home"
+url = "/"
+[[menu.main]]
+name = "Blog"
+weight = 200
+identifier = "posts"
+url = "/posts"
+[[menu.main]]
+name = "Weekly-Intel"
+weight = 300
+identifier = "weekly-intel"
+url = "/weekly-intel"
+[[menu.main]]
+name = "Visualisations"
+identifier = "visualisations"
+weight = 400
+url = "/visualisations"
+[[menu.main]]
+name = "About Me"
+identifier = "about"
+weight = 500
+url = "/about"
+[[menu.main]]
+name = "My Repos"
+identifier = "repositories"
+weight = 600
+url = "/repositories"
+[[menu.main]]
+name = "Checklists"
+identifier = "checklists"
+weight = 700
+url = "/checklists"
+[[menu.main]]
+name = "Kickstart Career"
+identifier = "kickstartcareer"
+weight = 800
+url = "/kickstartcareer"
+[[menu.main]]
+name = "Disclaimer"
+identifier = "disclaimer"
+weight = 900
+url = "/disclaimer"
